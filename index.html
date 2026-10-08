@@ -122,6 +122,16 @@ footer{padding:30px 0;color:var(--muted);font-size:13px;text-align:center}
       <p>Association-rule mining on 15,000 retail baskets: FP-Growth, lift and Fisher-tested rules, auto-detected shopping missions, a "frequently bought together" recommender and cross-sell revenue sizing, comparing supermarkets with dukas.</p>
       <div class="tags"><span class="tag">Python</span><span class="tag">mlxtend</span><span class="tag">R</span><span class="tag">Network analysis</span></div>
       <div class="links"><a href="https://github.com/OKUMUKOKUMU/market-basket-analysis">Repo →</a> &nbsp; <a href="https://github.com/OKUMUKOKUMU/market-basket-analysis/blob/main/python/market_basket_analysis.ipynb">Notebook →</a></div></div>
+    <div class="card"><p class="impact">AUC 0.91 · top 10% risk list catches 61% of churners</p>
+      <h3>Customer Segmentation &amp; Churn</h3>
+      <p>RFM and K-means segmentation of 4,000 B2B outlets, then a leakage-safe 90-day churn model (logistic regression, random forest, gradient boosting) linked to revenue at risk and retention-campaign economics. Rebuilt in R as an independent check.</p>
+      <div class="tags"><span class="tag">Python</span><span class="tag">scikit-learn</span><span class="tag">R</span><span class="tag">Churn modelling</span></div>
+      <div class="links"><a href="https://github.com/OKUMUKOKUMU/customer-segmentation-churn">Repo →</a> &nbsp; <a href="https://github.com/OKUMUKOKUMU/customer-segmentation-churn/blob/main/python/segmentation_and_churn.ipynb">Notebook →</a></div></div>
+    <div class="card"><p class="impact">Ensemble MAPE 3.4% · 57% less safety stock vs naive</p>
+      <h3>Weekly Sales Forecasting — 6 Models</h3>
+      <p>Seasonal naive, Holt-Winters, Theta, SARIMAX with Fourier terms and promo regressors, Prophet and gradient boosting compared on a hold-out and a rolling backtest, with an ensemble Q4 forecast and empirical prediction intervals.</p>
+      <div class="tags"><span class="tag">Python</span><span class="tag">statsmodels</span><span class="tag">Prophet</span><span class="tag">R</span></div>
+      <div class="links"><a href="https://github.com/OKUMUKOKUMU/sales-forecasting-time-series">Repo →</a> &nbsp; <a href="https://github.com/OKUMUKOKUMU/sales-forecasting-time-series/blob/main/python/sales_forecasting.ipynb">Notebook →</a></div></div>
     <div class="card"><h3>Sales Forecasting App</h3>
       <p>Forecasts sales by item, customer and month to support demand planning.</p>
       <div class="tags"><span class="tag">Python</span><span class="tag">Time series</span></div>
